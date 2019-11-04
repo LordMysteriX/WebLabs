@@ -1,0 +1,151 @@
+body{
+    background: url(siniy-uzorchatyy-fon-temnaya.jpg) no-repeat;
+    background-color: black;
+    background-size: 100%;
+}
+@font-face{
+    src: url(HU4LIFE_2017.ttf);
+    font-family: "HU4LIFE_2017";
+}
+
+h1{
+    font-family:  "HU4LIFE_2017";
+    color: white;
+    text-align: center;
+    font-size: 550%;
+    letter-spacing: 0.3em;
+    animation: neon .08s ease-in-out infinite alternate;
+}
+h2{
+    color: white;
+    text-align: center;
+    font-size: 300%;
+    margin-top: 100px;
+}
+h3{
+    color: gray;
+    margin-left: 175px;
+    
+}
+p{
+    font-size: 170%;
+    color: white;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+a{
+    font-family: "HU4LIFE_2017";
+    color:white;
+    text-decoration: none;
+}
+#headers{
+    font-family: "HU4LIFE_2017";
+    color: white;
+    font-size: 170%;
+    text-decoration: none;
+    overflow: hidden;
+    float: left;
+    margin-left: 150px;
+    margin-bottom: 300px;
+ 
+}
+button{
+    font-family: "HU4LIFE_2017";
+    text-align: center;
+    color: white;
+    font-size: 170%;
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+}
+.dropdown {
+    position: relative;
+    float: left;
+    margin-left: 150px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    font-size: 130%;   
+  }
+  .dropdown-content a{
+    font-family: "HU4LIFE_2017";
+    color: black;
+    font-size: 140%;
+    text-decoration: none;
+    overflow: hidden;
+    float: left;
+  }
+  .dropdown-content a:hover{
+    background-color:#4A9CF4;
+    width: 100%;
+}
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+#headers:hover {
+    transform: scale(1.5);
+    transition-duration: 1s; 
+}
+.Logo{
+ text-align: left;
+ margin-left: 25px;
+ padding-bottom: 20px;
+ float: left;
+ margin-bottom: 100px;
+}
+
+.albums{
+    margin-top: 90px;
+    margin-bottom: 15em;
+    text-align: center;
+    word-spacing: 10em;
+    
+}
+footer p {
+    text-align: center;
+    color: #e1f3f9;
+    margin-bottom: 10px;
+  }
+  
+  footer p i {
+    margin: 0 10px;
+}
+.icons{
+    word-spacing: 2em;
+    padding-top: 50px;
+}
+#transform-albums:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    transition-duration: 1s; 
+}
+@keyframes rotate { 
+    100%{transform: rotate(360deg)}
+}
+.rotate{
+    animation: rotate 3s infinite ease-in-out;
+}
+
+@keyframes neon {
+    from {
+      text-shadow:
+      0 0 6px rgba(202,228,225,0.92),
+      0 0 30px rgba(202,228,225,0.34),
+      0 0 12px rgba(30,132,242,0.52),
+      0 0 21px rgba(30,132,242,0.92),
+      0 0 34px rgba(30,132,242,0.78),
+      0 0 54px rgba(30,132,242,0.92);
+    }
+    to {
+      text-shadow:
+      0 0 6px rgba(202,228,225,0.98),
+      0 0 30px rgba(202,228,225,0.42),
+      0 0 12px rgba(30,132,242,0.58),
+      0 0 22px rgba(30,132,242,0.84),
+      0 0 38px rgba(30,132,242,0.88),
+      0 0 60px rgba(30,132,242,1);
+    }
+  }
