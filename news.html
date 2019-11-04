@@ -1,68 +1,55 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
+  <head>
+    <title>Hollywood Undead</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>News</title>
-</head>
-<body>
-    <header>
-  <div class = "Logo">
-<img class="rotate" src="HL logo.png" width="275" height="175"> 
-  </div>
-    <a id = "headers"  href="index.html">Main</a>
-    <a id = "headers" href="">News</a> 
-    <div class="dropdown">
-        <button>For Fans</button>
-            <div class="dropdown-content">
-            <a href="">Fan club</a>
-            <a href="">Tour schedule</a>
-            <a href="">Lyrics</a>
-        </div>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head> 
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <body>
+      <header class="header">
+        <nav class="navbar navbar-expand-lg fixed-top" style="background: black;">  
+           <h1 id ="HL" style="margin-left:50px">Hollywood Undead</h1>
+         <div class="collapse navbar-collapse " id="navbarSupportedContent">
+           <ul class="navbar-nav mr-4">
+          <li class="nav-item">
+              <a class="nav-link" data-value="main" href="index.html">Main</a></li>  
+         <li class="nav-item">
+             <a class="nav-link " data-value="news"href="#">News</a>    
+          </li>
+          <li class="btn-group">
+             <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" style="background: none; margin-left: 100px;" >For Fans</a>
+              <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Fan club</a>
+                  <a class="dropdown-item" href="#">Tour schedule</a>
+                  <a class="dropdown-item" href="#">Lyrics</a>
+              </div>
+            </li>   
+         <li class="nav-item">  
+            <a class="nav-link " data-value="fans appeal" href="#">Fans Appeal</a>
+          </li>  
+         <li class="nav-item"> 
+          <a class="nav-link " data-value="concert venue" href="#">Concert Venue</a>
+        </li> 
+        <li class="nav-item"> 
+          <a class="nav-link " data-value="admin" href="#">Admin</a>
+        </li>
+         </ul> 
+         </div>
+        </nav>
+    </header>
+    <div class = "Logo">
+      <img class="rotate" src="HL logo.png" width="275" height="175"> 
     </div>
-    </div>
-    <a id = "headers" href="">Fans Appeal</a>
-    <a id = "headers" href="">Content venue</a>
-    <a id = "headers" href="">Admin</a>
-    <h1>
+    <h1 id ="center-text">
         HOLLYWOOD UNDEAD
     </h1>
-</header>
-
-<h2>
-    News
-</h2>
-
-    <h3>30 OCTOBER 2018 AT 10.16</h3>
-        <p>
-            <a href="">HOLLYWOOD UNDEAD HAVE ANNOUNCED A NEW EP</a>
-            <p>And it'll be here very soon...</p>
-            <img style="margin-left: 175px; margin-bottom: 30px" src="hollywoodundead_2018.jpg" width="500" height="350">
-        </p>
-    <h3>10 FEBRUARY 2018 AT 14.23</h3>
-        <p>
-            <a href="">THERE’S A NEW HOLLYWOOD UNDEAD ALBUM COMING NEXT MONTH</a>
-            <p>The (not so) masked LA crew have announced their fourth album.</p>
-            <img style="margin-left: 175px; margin-bottom: 30px" src="hollywoodundead_20182.jpg" width="500" height="350">
-        </p>
-    <h3>15 OCTOBER 2017 AT 16.40</h3>
-        <p>
-            <a href="">DOWNLOAD FESTIVAL </a>
-            <p>Rise Against, Black Veil Brides, Every Time I Die,<br> Lamb Of God and Northlane are among today's new additions.</p>
-            <img style="margin-left: 175px; margin-bottom: 30px" src="Poster.jpg" width="350" height="600">
-        </p>
-
-<footer>
-    <p class="icons">
-        <img src="facebook logo.png" width="30px" height="30px">
-        <img src="instagram logo.png" width="32px" height="32px">
-        <img src="twitter logo.png" width="30px" height="30px">
-    </p>
-        <p>© HOLLYWOOD UNDEAD, 2019. All rights reserved.</p>
-        <p style="margin-bottom: 5em;">Privacy Policy</p>
-    </footer>
-          
-</body>
-</html>
+    <h2>
