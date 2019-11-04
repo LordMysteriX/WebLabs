@@ -1,151 +1,113 @@
-body{
-    background: url(siniy-uzorchatyy-fon-temnaya.jpg) no-repeat;
-    background-color: black;
-    background-size: 100%;
+.background{
+     background: black;
+     padding-bottom: 200px;
 }
-@font-face{
-    src: url(HU4LIFE_2017.ttf);
-    font-family: "HU4LIFE_2017";
+.Bg-image{
+     background: url(Background.jpg) no-repeat !important;
+     padding-top: 50px;
+     background-size: auto 100%;
 }
 
-h1{
-    font-family:  "HU4LIFE_2017";
-    color: white;
-    text-align: center;
-    font-size: 550%;
-    letter-spacing: 0.3em;
-    animation: neon .08s ease-in-out infinite alternate;
+@font-face{
+     src: url(HU4LIFE_2017.ttf);
+     font-family: "HU4LIFE_2017";
 }
-h2{
-    color: white;
-    text-align: center;
-    font-size: 300%;
-    margin-top: 100px;
+#HL{
+     font-family: "HU4LIFE_2017";
+     color: white;
 }
-h3{
-    color: gray;
-    margin-left: 175px;
-    
+.nav-link , .navbar-brand{
+     color: #f4f4f4;
+      cursor: pointer;
+     margin-left: 100px;
 }
-p{
-    font-size: 170%;
-    color: white;
-    max-width: 1500px;
-    margin: 0 auto;
-}
-a{
+.nav-link{ 
     font-family: "HU4LIFE_2017";
-    color:white;
-    text-decoration: none;
+    margin-right: 1em !important;
 }
-#headers{
-    font-family: "HU4LIFE_2017";
-    color: white;
-    font-size: 170%;
-    text-decoration: none;
-    overflow: hidden;
-    float: left;
-    margin-left: 150px;
-    margin-bottom: 300px;
- 
+
+.nav-link:hover{
+     background:#f4f4f4;
+      color: #434FD3;
 }
-button{
-    font-family: "HU4LIFE_2017";
-    text-align: center;
-    color: white;
-    font-size: 170%;
-    text-decoration: none;
-    background-color: transparent;
-    border: none;
+.navbar-collapse{
+     justify-content: flex-end;
 }
-.dropdown {
-    position: relative;
-    float: left;
-    margin-left: 150px;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    font-size: 130%;   
-  }
-  .dropdown-content a{
-    font-family: "HU4LIFE_2017";
-    color: black;
-    font-size: 140%;
-    text-decoration: none;
-    overflow: hidden;
-    float: left;
-  }
-  .dropdown-content a:hover{
-    background-color:#4A9CF4;
-    width: 100%;
+.navbar-toggler{
+      background:#fff !important;
 }
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-#headers:hover {
-    transform: scale(1.5);
-    transition-duration: 1s; 
+#center-text{
+          font-family:  "HU4LIFE_2017";
+          color: white;
+          text-align: center;
+          font-size: 550%;
+          letter-spacing: 0.3em;
+          animation: neon .08s ease-in-out infinite alternate; 
+          margin-top: 150px; 
 }
 .Logo{
- text-align: left;
- margin-left: 25px;
- padding-bottom: 20px;
- float: left;
- margin-bottom: 100px;
+     text-align: left;
+     margin-left: 50px;
+     padding-bottom: 20px;
+     margin-top: 85px;
 }
+p{
+     font-size: 170%;
+     color: white;
+     max-width: 1500px;
+     margin: 0 auto;
+ }
+ h2{
+     color: white;
+     text-align: center;
+     font-size: 300%;
+     padding-top: 100px;
+ }
+ .albums{
+     margin-top: 90px;
+     margin-bottom: 15em;
+     text-align: center;
+     word-spacing: 10em;
+ }
+ footer p {
+     text-align: center;
+     color: #e1f3f9;
+     margin-bottom: 10px;
+   }
+   
+   footer p i {
+     margin: 0 10px;
+ }
+ .icons{
+     word-spacing: 2em;
+     padding-top: 50px;
+ }
+ @keyframes rotate { 
+     100%{transform: rotate(360deg)}
+ }
+ .rotate{
+     animation: rotate 3s infinite ease-in-out;
+ }
+ 
+ @keyframes neon {
+     from {
+       text-shadow:
+       0 0 6px rgba(202,228,225,0.92),
+       0 0 30px rgba(202,228,225,0.34),
+       0 0 12px rgba(30,132,242,0.52),
+       0 0 21px rgba(30,132,242,0.92),
+       0 0 34px rgba(30,132,242,0.78),
+       0 0 54px rgba(30,132,242,0.92);
+     }
+     to {
+       text-shadow:
+       0 0 6px rgba(202,228,225,0.98),
+       0 0 30px rgba(202,228,225,0.42),
+       0 0 12px rgba(30,132,242,0.58),
+       0 0 22px rgba(30,132,242,0.84),
+       0 0 38px rgba(30,132,242,0.88),
+       0 0 60px rgba(30,132,242,1);
+     }
+   }
 
-.albums{
-    margin-top: 90px;
-    margin-bottom: 15em;
-    text-align: center;
-    word-spacing: 10em;
-    
-}
-footer p {
-    text-align: center;
-    color: #e1f3f9;
-    margin-bottom: 10px;
-  }
-  
-  footer p i {
-    margin: 0 10px;
-}
-.icons{
-    word-spacing: 2em;
-    padding-top: 50px;
-}
-#transform-albums:hover{
-    -webkit-transform: scale(1.5);
-    transform: scale(1.5);
-    transition-duration: 1s; 
-}
-@keyframes rotate { 
-    100%{transform: rotate(360deg)}
-}
-.rotate{
-    animation: rotate 3s infinite ease-in-out;
-}
 
-@keyframes neon {
-    from {
-      text-shadow:
-      0 0 6px rgba(202,228,225,0.92),
-      0 0 30px rgba(202,228,225,0.34),
-      0 0 12px rgba(30,132,242,0.52),
-      0 0 21px rgba(30,132,242,0.92),
-      0 0 34px rgba(30,132,242,0.78),
-      0 0 54px rgba(30,132,242,0.92);
-    }
-    to {
-      text-shadow:
-      0 0 6px rgba(202,228,225,0.98),
-      0 0 30px rgba(202,228,225,0.42),
-      0 0 12px rgba(30,132,242,0.58),
-      0 0 22px rgba(30,132,242,0.84),
-      0 0 38px rgba(30,132,242,0.88),
-      0 0 60px rgba(30,132,242,1);
-    }
-  }
