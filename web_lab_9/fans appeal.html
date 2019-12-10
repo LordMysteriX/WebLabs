@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en" manifest="/caсhe.manifest">
+
+<head>
+    <title>Hollywood Undead</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="function.js"></script>
+    <script src="Indexed.js"></script>
+</head>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<body>
+    <div class="background">
+        <header>
+            <nav class="navbar navbar-expand-lg fixed-top" style="background: black;">
+                <h1 id="HL" style="margin-left:50px">Hollywood Undead</h1>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-4">
+                        <li class="nav-item">
+                            <a class="nav-link" data-value="main" href="index.html">Main</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link " data-value="news" href="news.html">News</a>
+                        </li>
+                        <div class="btn-group-vertical" style=" margin-left: 100px; font-family: HU4LIFE_2017">
+                            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: none;">
+                                For fans
+                            </button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Fan club</a>
+                                <a class="dropdown-item" href="tour shchedule.html">Tour schedule</a>
+                                <a class="dropdown-item" href="#">Lyrics</a>
+                            </div>
+                        </div>
+                        <li class="nav-item">
+                            <a class="nav-link " data-value="fans appeal" href="#">Fans Appeal</a>
+                            <li class="nav-item">
+                                <a class="nav-link " data-value="concert venue" href="concert venue.html">Concert Venue</a>
+                                <li class="nav-item">
+                                    <a class="nav-link " data-value="admin" href="admin.html">Admin</a>
+                                </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <div class="Bg-image">
+            <div class="Logo">
+                <img class="rotate" src="HL logo.png" width="275" height="175">
+            </div>
+
+            <h1 id="center-text">
+                HOLLYWOOD UNDEAD
+            </h1>
+
+            <section>
+                    <div class="container max-width" >
+                      <div id="parent">
+                            <div class="row justify-content-around padding-cont">
+                            </div>
+                          </div>
+
+                        <div class="row justify-content-around ">
+                            <div class="col-md-2 justify-content-center padding-cont align-self-center">
+                                <button type="button" onclick="createAppeal()">Send</button>
+                            </div>
+                            <div class="col-md-8 justify-content-center  padding-cont">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                    </div>
+                                    <textarea class="form-control" id="text" rows="6" onclick="remove_class(this.id)" aria-label="With textarea"  placeholder="Write an appeal.."></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <script src="js/bootstrap.min.js"></script>
+
+                <!-- jQuery library -->
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+                <!-- Popper JS -->
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+                <!-- Latest compiled JavaScript -->
+                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+                <footer>
+                    <p class="icons ">
+                        <img src="facebook logo.png " width="30px " height="30px ">
+                        <img src="instagram logo.png " width="32px " height="32px ">
+                        <img src="twitter logo.png " width="30px " height="30px ">
+                    </p>
+                    <p>© HOLLYWOOD UNDEAD, 2019. All rights reserved.</p>
+                    <p>Privacy Policy</p>
+                </footer>
+            </div>
+</body>
+</html>
