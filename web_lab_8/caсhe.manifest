@@ -1,0 +1,15 @@
+CACHE MANIFEST
+# version 1
+CACHE:
+C:/concert venue.html
+C:/fans appeal.html
+C:/index.html
+C:/news.html
+C:/style.css
+C:/hollywoodundead2018.jpg
+
+NETWORK:
+*
+
+FALLBACK:
+/ /error.html
